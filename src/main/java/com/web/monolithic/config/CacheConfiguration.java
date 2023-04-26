@@ -50,6 +50,15 @@ public class CacheConfiguration {
             createCache(cm, com.web.monolithic.domain.User.class.getName() + ".authorities");
             createCache(cm, com.web.monolithic.domain.PersistentToken.class.getName());
             createCache(cm, com.web.monolithic.domain.User.class.getName() + ".persistentTokens");
+            createCache(cm, com.web.monolithic.domain.Cart.class.getName());
+            createCache(cm, com.web.monolithic.domain.CartItem.class.getName());
+            createCache(cm, com.web.monolithic.domain.Product.class.getName());
+            createCache(cm, com.web.monolithic.domain.Order.class.getName());
+            createCache(cm, com.web.monolithic.domain.OrderItem.class.getName());
+            createCache(cm, com.web.monolithic.domain.OrderItemProduct.class.getName());
+            createCache(cm, com.web.monolithic.domain.Shipping.class.getName());
+            createCache(cm, com.web.monolithic.domain.Payment.class.getName());
+            createCache(cm, com.web.monolithic.domain.Notification.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }

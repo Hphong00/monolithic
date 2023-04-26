@@ -1,0 +1,32 @@
+{
+  "webApp": {
+    "payment": {
+      "home": {
+        "title": "Payments",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Thêm mới một Payment",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Payment",
+        "search": "Tìm Payment",
+        "notFound": "No Payments found"
+      },
+      "created": "Một Payment mới được tạo với định danh {{ param }}",
+      "updated": "Một Payment cập nhật với định danh {{ param }}",
+      "deleted": "Một Payment đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Payment {{ id }}?"
+      },
+      "detail": {
+        "title": "Payment"
+      },
+      "id": "Id",
+      "userId": "User Id",
+      "cardNumber": "Card Number",
+      "cardHolderName": "Card Holder Name",
+      "cardExpirationMonth": "Card Expiration Month",
+      "cardExpirationYear": "Card Expiration Year",
+      "cardCVV": "Card CVV",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At"
+    }
+  }
+}

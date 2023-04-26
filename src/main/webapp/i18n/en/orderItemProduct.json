@@ -1,0 +1,27 @@
+{
+  "webApp": {
+    "orderItemProduct": {
+      "home": {
+        "title": "Order Item Products",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Order Item Product",
+        "createOrEditLabel": "Create or edit a Order Item Product",
+        "search": "Search for Order Item Product",
+        "notFound": "No Order Item Products found"
+      },
+      "created": "A new Order Item Product is created with identifier {{ param }}",
+      "updated": "A Order Item Product is updated with identifier {{ param }}",
+      "deleted": "A Order Item Product is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Order Item Product {{ id }}?"
+      },
+      "detail": {
+        "title": "Order Item Product"
+      },
+      "id": "Id",
+      "orderItemId": "Order Item Id",
+      "productId": "Product Id",
+      "quantity": "Quantity"
+    }
+  }
+}

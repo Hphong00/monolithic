@@ -1,0 +1,53 @@
+{
+  "applications": "*",
+  "changelogDate": "20230426082644",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "payment",
+  "fields": [
+    {
+      "fieldName": "id",
+      "fieldType": "UUID"
+    },
+    {
+      "fieldName": "userId",
+      "fieldType": "UUID"
+    },
+    {
+      "fieldName": "cardNumber",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "cardHolderName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "cardExpirationMonth",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "cardExpirationYear",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "cardCVV",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "createdAt",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "updatedAt",
+      "fieldType": "Instant"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Payment",
+  "pagination": "infinite-scroll",
+  "readOnly": false,
+  "relationships": [],
+  "searchEngine": "elasticsearch",
+  "service": "serviceImpl"
+}

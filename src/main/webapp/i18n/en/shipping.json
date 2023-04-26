@@ -1,0 +1,35 @@
+{
+  "webApp": {
+    "shipping": {
+      "home": {
+        "title": "Shippings",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Shipping",
+        "createOrEditLabel": "Create or edit a Shipping",
+        "search": "Search for Shipping",
+        "notFound": "No Shippings found"
+      },
+      "created": "A new Shipping is created with identifier {{ param }}",
+      "updated": "A Shipping is updated with identifier {{ param }}",
+      "deleted": "A Shipping is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Shipping {{ id }}?"
+      },
+      "detail": {
+        "title": "Shipping"
+      },
+      "id": "Id",
+      "userId": "User Id",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "phone": "Phone",
+      "address": "Address",
+      "city": "City",
+      "state": "State",
+      "country": "Country",
+      "postalCode": "Postal Code",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At"
+    }
+  }
+}

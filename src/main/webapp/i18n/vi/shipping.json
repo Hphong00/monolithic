@@ -1,0 +1,35 @@
+{
+  "webApp": {
+    "shipping": {
+      "home": {
+        "title": "Shippings",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Thêm mới một Shipping",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Shipping",
+        "search": "Tìm Shipping",
+        "notFound": "No Shippings found"
+      },
+      "created": "Một Shipping mới được tạo với định danh {{ param }}",
+      "updated": "Một Shipping cập nhật với định danh {{ param }}",
+      "deleted": "Một Shipping đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Shipping {{ id }}?"
+      },
+      "detail": {
+        "title": "Shipping"
+      },
+      "id": "Id",
+      "userId": "User Id",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "phone": "Phone",
+      "address": "Address",
+      "city": "City",
+      "state": "State",
+      "country": "Country",
+      "postalCode": "Postal Code",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At"
+    }
+  }
+}

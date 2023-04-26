@@ -1,0 +1,33 @@
+{
+  "applications": "*",
+  "changelogDate": "20230426082638",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "cart_item",
+  "fields": [
+    {
+      "fieldName": "id",
+      "fieldType": "UUID"
+    },
+    {
+      "fieldName": "cartId",
+      "fieldType": "UUID"
+    },
+    {
+      "fieldName": "productId",
+      "fieldType": "UUID"
+    },
+    {
+      "fieldName": "quantity",
+      "fieldType": "Integer"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "CartItem",
+  "pagination": "infinite-scroll",
+  "readOnly": false,
+  "relationships": [],
+  "searchEngine": "elasticsearch",
+  "service": "serviceImpl"
+}

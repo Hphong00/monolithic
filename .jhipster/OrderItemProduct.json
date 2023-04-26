@@ -1,0 +1,33 @@
+{
+  "applications": "*",
+  "changelogDate": "20230426082642",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "order_item_product",
+  "fields": [
+    {
+      "fieldName": "id",
+      "fieldType": "UUID"
+    },
+    {
+      "fieldName": "orderItemId",
+      "fieldType": "UUID"
+    },
+    {
+      "fieldName": "productId",
+      "fieldType": "UUID"
+    },
+    {
+      "fieldName": "quantity",
+      "fieldType": "Integer"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "OrderItemProduct",
+  "pagination": "infinite-scroll",
+  "readOnly": false,
+  "relationships": [],
+  "searchEngine": "elasticsearch",
+  "service": "serviceImpl"
+}

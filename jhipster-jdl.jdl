@@ -1,0 +1,92 @@
+
+entity Cart {
+    id UUID
+    userId UUID
+    createdAt Instant
+    updatedAt Instant
+}
+
+entity CartItem {
+    id UUID
+    cartId UUID
+    productId UUID
+    quantity Integer
+}
+
+entity Product {
+    id UUID
+    name String
+    description String
+    price Float
+    createdAt Instant
+    updatedAt Instant
+}
+
+entity Order {
+    id UUID
+    userId UUID
+    shippingId UUID
+    paymentId UUID
+    createdAt Instant
+    updatedAt Instant
+}
+
+entity OrderItem {
+    id UUID
+    orderId UUID
+    productId UUID
+    quantity Integer
+    createdAt Instant
+    updatedAt Instant
+}
+
+entity OrderItemProduct {
+    id UUID
+    orderItemId UUID
+    productId UUID
+    quantity Integer
+}
+
+entity Shipping {
+    id UUID
+    userId UUID
+    firstName String
+    lastName String
+    phone String
+    address String
+    city String
+    state String
+    country String
+    postalCode String
+    createdAt Instant
+    updatedAt Instant
+}
+
+entity Payment {
+    id UUID
+    userId UUID
+    cardNumber String
+    cardHolderName String
+    cardExpirationMonth Integer
+    cardExpirationYear Integer
+    cardCVV String
+    createdAt Instant
+    updatedAt Instant
+}
+
+entity Notification {
+    id UUID
+    userId UUID
+    orderId UUID
+    message String
+    type String
+    isRead Boolean
+    createdAt Instant
+    updatedAt Instant
+}
+
+dto * with mapstruct
+service * with serviceImpl
+paginate * with infinite-scroll
+search * with elasticsearch
+

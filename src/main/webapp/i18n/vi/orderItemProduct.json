@@ -1,0 +1,27 @@
+{
+  "webApp": {
+    "orderItemProduct": {
+      "home": {
+        "title": "Order Item Products",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Thêm mới một Order Item Product",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Order Item Product",
+        "search": "Tìm Order Item Product",
+        "notFound": "No Order Item Products found"
+      },
+      "created": "Một Order Item Product mới được tạo với định danh {{ param }}",
+      "updated": "Một Order Item Product cập nhật với định danh {{ param }}",
+      "deleted": "Một Order Item Product đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Order Item Product {{ id }}?"
+      },
+      "detail": {
+        "title": "Order Item Product"
+      },
+      "id": "Id",
+      "orderItemId": "Order Item Id",
+      "productId": "Product Id",
+      "quantity": "Quantity"
+    }
+  }
+}

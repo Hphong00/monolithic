@@ -7,6 +7,15 @@
       "jhipster-needle-menu-add-element": "JHipster will add additional menu entries here (do not translate!)",
       "entities": {
         "main": "Thực thể",
+        "cart": "Cart",
+        "cartItem": "Cart Item",
+        "product": "Product",
+        "order": "Order",
+        "orderItem": "Order Item",
+        "orderItemProduct": "Order Item Product",
+        "shipping": "Shipping",
+        "payment": "Payment",
+        "notification": "Notification",
         "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
       },
       "account": {

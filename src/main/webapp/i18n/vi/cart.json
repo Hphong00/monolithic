@@ -1,0 +1,27 @@
+{
+  "webApp": {
+    "cart": {
+      "home": {
+        "title": "Carts",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Thêm mới một Cart",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Cart",
+        "search": "Tìm Cart",
+        "notFound": "No Carts found"
+      },
+      "created": "Một Cart mới được tạo với định danh {{ param }}",
+      "updated": "Một Cart cập nhật với định danh {{ param }}",
+      "deleted": "Một Cart đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Cart {{ id }}?"
+      },
+      "detail": {
+        "title": "Cart"
+      },
+      "id": "Id",
+      "userId": "User Id",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At"
+    }
+  }
+}
